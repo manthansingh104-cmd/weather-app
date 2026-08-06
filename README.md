@@ -92,6 +92,8 @@ A modern, responsive weather application that provides real-time weather informa
 <img width="1886" height="896" alt="image" src="https://github.com/user-attachments/assets/8e4d26ac-5184-4764-a40c-142caccc9f66" />
 <img width="1876" height="860" alt="image" src="https://github.com/user-attachments/assets/c884816a-650a-4720-af0d-b9909e470086" />
 <img width="490" height="1088" alt="image" src="https://github.com/user-attachments/assets/63d15952-b5b0-4d97-894f-9e01c7abee7a" />
+![Uploading image.png…]()
+
 
 
 ## 🚀 Installation & Setup
