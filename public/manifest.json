@@ -1,0 +1,101 @@
+{
+  "id": "/",
+  "name": "Weather App",
+  "short_name": "Weather",
+  "description": "A modern premium weather application built with React and TypeScript.",
+  "theme_color": "#2563EB",
+  "background_color": "#0F172A",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+
+  "icons": [
+    {
+      "src": "/pwa-icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icons/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+
+  "categories": [
+    "weather"
+  ],
+
+  "keywords": [
+    "weather",
+    "forecast",
+    "temperature",
+    "real-time"
+  ],
+
+  "screenshots": [
+    {
+      "src": "/pwa-icons/screenshot-mobile.png",
+      "sizes": "320x640",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/pwa-icons/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Search Weather",
+      "short_name": "Search",
+      "description": "Search weather for any city",
+      "url": "/?source=pwa_shortcut_search",
+      "icons": [
+        {
+          "src": "/pwa-icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "My Location",
+      "short_name": "Location",
+      "description": "Get weather for your location",
+      "url": "/?source=pwa_shortcut_location",
+      "icons": [
+        {
+          "src": "/pwa-icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+
+  "prefer_related_applications": false
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- Viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- App metadata -->
+    <title>Weather App</title>
+    <meta name="description" content="A modern premium weather application built with React and TypeScript." />
+    <meta name="theme-color" content="#2563EB" />
+    <meta name="color-scheme" content="dark light" />
+    
+    <!-- PWA Support -->
+    <meta name="application-name" content="Weather App" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Weather" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- iOS icons -->
+    <link rel="apple-touch-icon" href="/pwa-icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/pwa-icons/apple-touch-icon.png" />
+    
+    <!-- Android icons and theme -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-icons/icon-192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/pwa-icons/icon-512.png" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Security and compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Weather App" />
+    <meta property="og:description" content="A modern premium weather application built with React and TypeScript." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/pwa-icons/icon-512.png" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Weather App" />
+    <meta name="twitter:description" content="A modern premium weather application built with React and TypeScript." />
+    <meta name="twitter:image" content="/pwa-icons/icon-512.png" />
+    
+    <!-- Preconnect to external resources for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.open-meteo.com" />
+    
+    <!-- DNS prefetch for additional APIs -->
+    <link rel="dns-prefetch" href="https://api.open-meteo.com" />
+    
+    <!-- Favicon fallback -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <!-- Root element for React -->
+    <div id="root"></div>
+    
+    <!-- Main React entry point -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
